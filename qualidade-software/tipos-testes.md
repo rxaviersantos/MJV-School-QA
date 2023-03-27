@@ -59,6 +59,8 @@ Os testes de integração podem ajudar as equipas de desenvolvimento a identific
 
 O teste de carga pode ocorrer de várias maneiras diferentes, mas seu objetivo principal é estressar o sistema com uma quantidade grande de dados, entradas e saídas, para testar como o sistema lida com um grande volume de dados. 
 
+## Testes exploratórios 
+
 
 
 
