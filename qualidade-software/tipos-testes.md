@@ -14,8 +14,14 @@
 ## Testes unitários 
 
 <p align="center">
-  <img alt="Pirâmide de automação" src="https://user-images.githubusercontent.com/85380530/225403308-54a26450-05c5-495e-aa67-2e61fa501fce.png" width="80%">
+  <img alt="Pirâmide de automação" src="https://user-images.githubusercontent.com/85380530/227749503-fe041095-d92e-41bb-826e-e68df68036bc.png" width="80%">
 </p>
+
+<p align="center">
+  <img alt="Pirâmide de automação" src="https://user-images.githubusercontent.com/85380530/227749545-b4ad0e06-c1b7-4719-9cb4-be98c2ddfa5d.png" width="80%">
+</p>
+
+
 
 O teste unitário consiste em verificar o comportamento das menores unidades em sua aplicação. Tecnicamente, isso seria uma classe ou até mesmo um método de classe em línguas orientadas a objetos, e seria um procedimento ou função em línguas processuais e fucnionais. 
 
@@ -54,6 +60,30 @@ O objectivo dos testes de integração é verificar se a integração de vários
     – Repita os passos acima até que os seus testes estejam completos
 
 Os testes de integração podem ajudar as equipas de desenvolvimento a identificar e corrigir problemas antecipadamente e a maximizar o desempenho da aplicação e a satisfação do utilizador de uma forma eficiente e eficaz.
+
+## Testes de componentes 
+
+O teste de componente é uma forma de teste de caixa fechada, o que significa que o teste avalia o comportamento do programa sem considerar os detalhes do código subjacente. O teste de componentes é feito na seção de código em sua totalidade, após a conclusão do desenvolvimento.
+
+O teste de componente leva mais tempo para ser conduzido do que o teste de unidade, porque um componente é composto de várias unidades de código. Embora possa ser demorado, ainda é muito necessário. Às vezes, as unidades individuais funcionam sozinhas, mas começam a ter problemas quando você as usa juntas.
+
+O teste de componentes examina casos de uso, portanto, pode ser considerado uma forma de teste de ponta a ponta. Testes de ponta a ponta e testes de componentes replicam cenários da vida real e testam o sistema em relação a esses cenários da perspectiva do usuário.
+
+A implementação do teste de componentes é benéfica porque pode revelar bugs e erros que os usuários podem encontrar. É sempre melhor detectar e corrigir esses erros antes que os usuários os conheçam.
+
+Existem dois tipos de teste de componentes: testes de componentes pequenos e testes de componentes grandes.
+
+### Teste de componentes pequenos
+
+Com o teste de componentes pequeno, os componentes que estão sendo testados ainda são segregados de outros componentes do sistema. Você ainda deve fazer uso de mock-ups e endpoints de teste para simular os componentes que se conectam com o que está sendo testado. Essa forma de teste garante que o componente esteja pronto para ser integrado ao restante do sistema.
+
+### Teste de componentes grande
+
+O teste de componentes grande escala é feito sem segregação, o que significa que o componente testado terá acesso a componentes externos. Com o teste de componentes em geral, ainda é apenas o componente principal que está sendo testado, não os componentes conectados ou como os componentes interagem entre si. Isso seria um teste de integração.
+
+## Teste interface do usuário 
+
+O teste de usabilidade é uma forma de provar a consistência e a solidez de uma interface ao colocá-la para uso em situações comuns. Ou seja, é um teste que busca entender como o sistema se comporta no dia a dia, na naturalidade da utilização, e se ele atende aos requisitos pensados e estabelecidos.
 
 ## Teste de carga 
 
