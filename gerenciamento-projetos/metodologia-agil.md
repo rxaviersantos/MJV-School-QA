@@ -1,4 +1,4 @@
-s## Metodologia ágil 
+## Metodologia ágil 
 
 - Indivíduos e interações mais que processos e ferramentas
 - Software em funcionamento mais que documentação abrangente 

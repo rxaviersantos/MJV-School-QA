@@ -85,13 +85,16 @@ O teste de componentes grande escala é feito sem segregação, o que significa 
 
 O teste de usabilidade é uma forma de provar a consistência e a solidez de uma interface ao colocá-la para uso em situações comuns. Ou seja, é um teste que busca entender como o sistema se comporta no dia a dia, na naturalidade da utilização, e se ele atende aos requisitos pensados e estabelecidos.
 
+    - Usabilidade: Focado na experiência do usuário, consistência da interface, layout, acesso às funcionalidades etc.
+    - Acessibilidade: Subconjunto de usabilidade, visa atender pessoas de diferentes habilidades: deficiência visual, física, auditiva, comprometimento cognitivo, dificuldade de aprendizagem entre outros.
+
 ## Teste de carga 
 
 O teste de carga pode ocorrer de várias maneiras diferentes, mas seu objetivo principal é estressar o sistema com uma quantidade grande de dados, entradas e saídas, para testar como o sistema lida com um grande volume de dados. 
 
 ## Testes exploratórios 
 
-
+De acordo com Bach, testes exploratórios é como “design e execução de teste ao mesmo tempo”. Mas nem sempre é compreendido da forma certa, alguns profissionais de TI entendem como se fosse uma prática realizada de maneira aleatória e a executa um monte de coisa sem sentido. Segundo Kaner, testes exploratório é “um estilo de teste de software que enfatiza a liberdade pessoal e responsabilidade do testador individual para continuamente otimizar a qualidade do seu trabalho tratando aprendizado relacionado a teste, projeto de teste, execução de testes e interpretação de resultados”.
 
 
 
