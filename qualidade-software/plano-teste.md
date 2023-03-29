@@ -26,8 +26,21 @@ O documento descritivo deve conter uma relação das:
 1. Priemeiramente se analisa o cenário descrito pelo analista;
 2. Divide a tela/funcionalidade/cenário em ações menores e atômicas;
 3. Coloca-se estas ações em ordem lógica;
-4. Acrescenta as informações
-5. 
+4. Acrescenta as informações as informações de regras específicas a serem observadas (quando necessário);
+5. Executa o cenário; 
+
+### Exemplo de um cenário de teste 
+
+- Efetuar login 
+
+1. Usuário preenche o campo login (Regra 01)
+2. Usuário preenche o campo senha 
+3. Usuário clica em login
+4. O sistema acessa a página principal 
+
+FA: Se o usuário preencher o campo login e senha incorretos, o sistema emite mensagem "Usuário ou senha inválidos"
+
+Regra de negócio 01: O usuário deverá inserir matricula, e-mail e CPF
 
 
 
