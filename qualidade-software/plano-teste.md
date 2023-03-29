@@ -1,4 +1,4 @@
-## Documentação de análose 
+## Documentação de análise 
 ## Técnicas de escrita de cenário 
 
 
@@ -31,16 +31,31 @@ O documento descritivo deve conter uma relação das:
 
 ### Exemplo de um cenário de teste 
 
-- Efetuar login 
+> Cenário / Efetuar login 
 
-1. Usuário preenche o campo login (Regra 01)
-2. Usuário preenche o campo senha 
-3. Usuário clica em login
-4. O sistema acessa a página principal 
+      - Regra de negócio 01: O usuário deverá inserir matricula, e-mail e CPF
+      
+      - FA: Se o usuário preencher o campo login e senha incorretos, o sistema emite mensagem "Usuário ou senha inválidos"
 
-FA: Se o usuário preencher o campo login e senha incorretos, o sistema emite mensagem "Usuário ou senha inválidos"
+      1. Usuário preenche o campo login (Regra 01)
+      2. Usuário preenche o campo senha 
+      3. Usuário clica em login
+      4. O sistema acessa a página principal 
 
-Regra de negócio 01: O usuário deverá inserir matricula, e-mail e CPF
+    Resultado esperado: "O sistema acessa a página principal"
+
+> Possibilidades a serem testadas 
+
+    1.1 Login com matricula e senha corretos
+    1.2 Login com e-mail e senha corretos
+    1.3 Login com CPF e senha corretos
+    2.1 Login matricula e senha incorretos 
+    2.2 Login e-mail e senha incorretos 
+    3. Login incorreto 
+    4. Senha incorreta
+    5. Login e senha em branco
+    6. Somente login em branco
+    7. Somente senha em branco
 
 
 
