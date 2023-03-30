@@ -1,5 +1,4 @@
-## Documentação de análise 
-## Técnicas de escrita de cenário 
+<h1 align="center"> Planos de testes </h1> 
 
 
 ## Especificação de software 
@@ -32,17 +31,17 @@ O documento descritivo deve conter uma relação das:
 ### Exemplo de um cenário de teste 
 
 > Cenário / Efetuar login 
+````
+- Regra de negócio 01: O usuário deverá inserir matricula, e-mail e CPF
 
-      - Regra de negócio 01: O usuário deverá inserir matricula, e-mail e CPF
-      
-      - FA: Se o usuário preencher o campo login e senha incorretos, o sistema emite mensagem "Usuário ou senha inválidos"
+- FA: Se o usuário preencher o campo login e senha incorretos, o sistema emite mensagem "Usuário ou senha inválidos"
 
-      1. Usuário preenche o campo login (Regra 01)
-      2. Usuário preenche o campo senha 
-      3. Usuário clica em login
-      4. O sistema acessa a página principal 
+1. Usuário preenche o campo login (Regra 01)
+2. Usuário preenche o campo senha 
+3. Usuário clica em login
+4. O sistema acessa a página principal 
 
-    Resultado esperado: "O sistema acessa a página principal"
+Resultado esperado: "O sistema acessa a página principal"
 
 > Possibilidades a serem testadas 
 
@@ -56,28 +55,8 @@ O documento descritivo deve conter uma relação das:
     5. Login e senha em branco
     6. Somente login em branco
     7. Somente senha em branco
+````
 
-
-
-## Para que serve o BDD 
-
-
-
-
-### Estrutura do BDD 
-- Dado: Local em que o usuário realiza a ação;
-- Quando: Ação realizada pelo usuário;
-- Então: Resultado esperado da ação;
-- E: Conector de ações ou resultados;
-
-Exemplo de BDD 
-
-Relaizar Login 
-
-  Dado que o usuário esteja na página de login do gmail
-  Quando preencher o campo com e0mail válido
-  E clicar no botão avançar 
-  Então o sistema exibe tela com o campo e senha 
 
 
 
