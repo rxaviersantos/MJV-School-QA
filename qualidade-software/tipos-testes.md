@@ -85,8 +85,8 @@ O teste de componentes grande escala é feito sem segregação, o que significa 
 
 O teste de usabilidade é uma forma de provar a consistência e a solidez de uma interface ao colocá-la para uso em situações comuns. Ou seja, é um teste que busca entender como o sistema se comporta no dia a dia, na naturalidade da utilização, e se ele atende aos requisitos pensados e estabelecidos.
 
-    - Usabilidade: Focado na experiência do usuário, consistência da interface, layout, acesso às funcionalidades etc.
-    - Acessibilidade: Subconjunto de usabilidade, visa atender pessoas de diferentes habilidades: deficiência visual, física, auditiva, comprometimento cognitivo, dificuldade de aprendizagem entre outros.
+- `` Usabilidade:`` Focado na experiência do usuário, consistência da interface, layout, acesso às funcionalidades etc.
+- `` Acessibilidade:`` Subconjunto de usabilidade, visa atender pessoas de diferentes habilidades: deficiência visual, física, auditiva, comprometimento cognitivo, dificuldade de aprendizagem entre outros.
 
 ## Teste de carga 
 
@@ -96,13 +96,75 @@ O teste de carga pode ocorrer de várias maneiras diferentes, mas seu objetivo p
 
 De acordo com Bach, testes exploratórios é como “design e execução de teste ao mesmo tempo”. Mas nem sempre é compreendido da forma certa, alguns profissionais de TI entendem como se fosse uma prática realizada de maneira aleatória e a executa um monte de coisa sem sentido. Segundo Kaner, testes exploratório é “um estilo de teste de software que enfatiza a liberdade pessoal e responsabilidade do testador individual para continuamente otimizar a qualidade do seu trabalho tratando aprendizado relacionado a teste, projeto de teste, execução de testes e interpretação de resultados”.
 
+<p align="center">
+  <img alt="Pirâmide de automação" src="https://user-images.githubusercontent.com/85380530/228687828-411f5a25-c3db-4e39-823c-dc6cb75bcc64.png" width="80%">
+</p>
 
+Não há casos de teste predefinidos nos testes exploratórios, isso não significa que o tester encarregue de levar a cabo o teste não os prepare, isto conduz a menos restrições para o tester e a uma maior liberdade, e responsabilidade pessoal, para aprender e iterar sem procurar uma resposta pré-desenhada da qual não se possa desviar.
 
+Uma das boas práticas que devem cumprir os testes exploratórios é que devem poder responder às seguintes perguntas:
 
+    - A aplicação realiza a função para a que foi desenhada?
+    - A aplicação funciona em múltiplos cenários?
+    - O desempenho da aplicação é suficientemente bom?
+    - Que potenciais erros existem?
 
+Para o qual seguiremos para as seguintes etapas que não são independentes entre si e existem como uma única função coesa ou ciclo de testes.
 
+<p align="center">
+  <img alt="Pirâmide de automação" src="https://user-images.githubusercontent.com/85380530/228695477-d07a8d62-db20-4720-bfea-b9f9d23eae70.png" width="80%">
+</p>
 
+### Aprendizagem 
 
+Uma das capacidades mais importantes que necessita um tester é a de compreender a aplicação ou o website que está a testar, grande parte desta aprendizagem ocorrerá em tempo real, à medida que comece a explorar e a testar o software. Esta compreensão proporciona contexto e inclui informação como dados comparativos competitivos, conhecimento da indústria e detalhes da empresa. Para certo tipo de aplicações pode ser necessário um tutorial.
+
+### Desenho
+
+Os testers exploratórios podem realizar o teste da maneira que considerem adequada e não tendo à partida um resultado desejado ou esperado. Muitas vezes, a técnica de teste exploratório conduz ao desenvolvimento de cenários de testes com guiões mais rigorosos ao longo do tempo.
+
+A gestão do teste pode ajudar a decidir o dispositivo, as circunstâncias ou as condições se o solicitante do teste ainda não o tiver estabelecido.
+
+### Execução
+
+O tester tem a liberdade de completar o teste como quiser. Esta liberdade significa que ninguém está à espera dos resultados escritos e pode começar o trabalho criativo assim que seja solicitado. O tester pode começar a observar e aprender sobre a aplicação ou o website. Uma vez finalizada esta fase, os resultados são compilados e comunicados através dos métodos apropriados.
+
+## Técnicas de testes exploratórios
+
+Existem diferentes formas de realizar testes exploratórios. Os três principais tipos são:
+
+- ``Testes de estilo livre:``
+Como sugere o nome, trata-se de testes nos quais cada tester seleciona um módulo ou a aplicação completa e a executa de forma aleatória. É como um smoke test rápido que se realiza para assegurar que tudo é implementado como esperado.
+
+- ``Testes baseados em cenários:``
+Neste tipo de testes exploratórios, cada tester seleciona um cenário de utilizador e testa os fluxos da aplicação relativos a esse caso de uso. Tentam cobrir todas as navegações, permutação de dados e fluxo que sejam possíveis para assegurar a estabilidade e funcionalidade desse cenário.
+
+- ``Testes baseados em estratégias:``
+Este tipo de testes implica implementar as metodologias de teste centrais num teste exploratório. Neste teste, o tester especializado aplicaria técnicas de black-box testing à aplicação.
+
+## Vantagens dos testes exploratórios
+
+> Encontrar mais defeitos:
+
+Um benefício importante dos testes exploratórios é que encontram defeitos que a automatização simplesmente não consegue encontrar. Os testes automatizados limitam-se aos casos de testes que se escrevem para os mesmos. Não encontrará nenhum erro fora deste âmbito
+
+> Velocidade dos ciclos de teste: 
+
+Os testes exploratórios não requerem uma planificação extensa. O alcance de um ciclo de teste deve ser claro, mas não são necessários casos de teste detalhados. Isso deve-se ao facto de se confiar nos testers para testar o que acreditam que deve ser testado. Em comparação, os testes automatizados são rápidos na execução de testes, mas a sua planificação pode levar muito tempo.
+
+> Geração de ideias:
+
+A criatividade requerida dos testers e o rápido ritmo dos testes exploratórios significa que se criam mais ideias.
+
+## Desvantagens dos testes exploratórios
+
+> Fazer as coisas bem é difícil:
+
+Os testes exploratórios dependem em grande medida do tester. Pode ser uma habilidade cara e difícil de adquirir, pelo que pode ser complicado encontrar os tester exploratórios que se estão à procura.
+
+> Medir o ROI pode ser complexo: 
+
+Medir o sucesso dos testes exploratórios a curto prazo pode ser complexo. 
 
 
 
