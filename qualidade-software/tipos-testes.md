@@ -166,5 +166,49 @@ Os testes exploratórios dependem em grande medida do tester. Pode ser uma habil
 
 Medir o sucesso dos testes exploratórios a curto prazo pode ser complexo. 
 
+## Testes de usabilidade
+
+O teste de usabilidade existe para avaliar o quão facilitada é a utilização do software para o usuário. Ele analisa a interface (UX/UI) do sistema, a maneira como é desenhado o fluxo (design pattern) e a integridade da interação com o usuário.
+
+Normalmente, durante um teste, os participantes tentarão concluir tarefas típicas enquanto os observadores assistem, ouvem e fazem anotações. O objetivo é identificar eventuais problemas de usabilidade, coletar dados qualitativos e quantitativos e determinar a satisfação do participante com o produto.
+
+### Benefícios do teste de usabilidade
+
+O teste de usabilidade permite que as equipes de design e desenvolvimento identifiquem problemas antes de serem codificados. Quanto mais cedo os problemas forem identificados e corrigidos, menos dispendiosas serão as correções em termos de tempo da equipe e possível impacto no cronograma. Durante um teste de usabilidade, você irá:
+
+    - Saiba se os participantes são capazes de concluir as tarefas especificadas com sucesso e
+    - Identifique quanto tempo leva para concluir as tarefas especificadas
+    - Descubra como os participantes estão satisfeitos com seu site ou outro produto
+    - Identificar as mudanças necessárias para melhorar o desempenho e a satisfação do usuário
+    - E analise o desempenho para ver se ele atende aos seus objetivos de usabilidade
+
+É importante ter em mente que o teste de usabilidade não é apenas um marco a ser verificado no cronograma do projeto. A equipe deve ter uma meta para o motivo pelo qual está testando e, em seguida, implementar os resultados.
+
+## Testes funcionais e não funcionais 
+
+### Teste Funcional
+
+Teste funcional é um processo de garantia de qualidade, e um tipo de teste de caixa preta que baseia seus casos de teste nas especificações do componente de software sob teste. As funções são testadas alimentando-as com entrada e examinando a saída, e a estrutura interna do programa raramente é considerada (ao contrário do teste de caixa branca). O teste funcional é realizado para avaliar a conformidade de um sistema ou componente com os requisitos funcionais especificados. O teste funcional geralmente descreve o que o sistema faz.
+
+Como o teste funcional é um tipo de teste de caixa preta, a funcionalidade do software pode ser testada sem conhecer o funcionamento interno do software. Isso significa que os testadores não precisam conhecer linguagens de programação ou como o software foi implementado. Isso, por sua vez, pode levar à redução do viés do desenvolvedor (ou viés de confirmação) nos testes, uma vez que o testador não esteve envolvido no desenvolvimento do software.
+
+O teste funcional não implica que você está testando uma função (método) de seu módulo ou classe. O teste funcional testa uma fatia da funcionalidade de todo o sistema.
+
+## Técnicas comuns do teste funcional e teste de software
+
+### Teste de Caixa-branca:
+
+Também chamada de teste estrutural, a técnica de caixa-branca avalia o comportamento interno do software.
+Esta técnica de teste avalia o comportamento interno do componente de software, trabalhando diretamente sobre o código fonte do componente de software para avaliar aspectos tais como: teste de condição, teste de fluxo de dados, teste de ciclos e teste de caminhos lógicos.
+
+#### Teste de Caixa-preta:
+
+Esta técnica de teste em que o componente de software a ser testado é abordado como se fosse uma caixa-preta, ou seja, não se considera o comportamento interno do mesmo. Dados de entrada são fornecidos, o teste é executado e o resultado obtido é comparado a um resultado esperado previamente conhecido. Haverá sucesso no teste se o resultado obtido for igual ao resultado esperado. O componente de software a ser testado pode ser um método, uma função interna, um programa, um componente, um conjunto de programas e/ou componentes ou mesmo uma funcionalidade. A técnica de teste funcional é aplicável a todos os níveis de teste.
+
+### Teste não funcional 
+
+São técnicas utilizadas para verificar a operação correta do sistema em relação a casos inválidos ou inesperados de entrada. Outras técnicas de teste existem para testar aspectos não-funcionais do software, como por exemplo, os testes de desempenho, teste de carga ou teste de usabilidade. As técnicas não funcionais verificam atributos de um componente ou sistema que não se relacionam com a funcionalidade (por exemplo, confiabilidade, eficiência, usabilidade, performance, manutenção e portabilidade).
+
+
 
 
