@@ -52,4 +52,7 @@ Através da School Quality Assurance pude desenvolver mais as minhas habilidades
  - [BDD como metodologia ágil](https://www.dtidigital.com.br/blog/bdd-como-metodologia-agil#O-que-e-metodologia-BDD)
  - [O que é BDD? Como implementar esse conceito na sua equipe](https://zoop.com.br/blog/gestao/o-que-e-bdd-como-implementar/)
 
-  
+---- 
+<p align="center">
+ Olá, sinta-se à vontade para mostrar apoio e dar a este repo<img src="https://img.icons8.com/fluency/20/null/star.png"/>estrela! Significa muito, obrigado :) 
+</p>
