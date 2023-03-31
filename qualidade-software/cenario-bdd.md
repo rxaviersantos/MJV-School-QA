@@ -193,3 +193,8 @@ Então transferência PIX não será permitida
   
   
 
+## Referência
+  
+ - [BDD: desenvolvimento orientado a comportamento](https://inside.contabilizei.com.br/bdd-desenvolvimento-orientado-a-comportamento-62e71f2eabe9)
+ - [Como implementar esse conceito na sua equipe](https://zoop.com.br/blog/gestao/o-que-e-bdd-como-implementar/)
+ - [O que é metodologia BDD](https://www.dtidigital.com.br/blog/bdd-como-metodologia-agil#O-que-e-metodologia-BDD)
