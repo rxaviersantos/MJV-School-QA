@@ -1,29 +1,7 @@
-## Metodologia ágil 
+<h1 align="center"> Metodologia Cascata x Ágil</h1>
 
-- Indivíduos e interações mais que processos e ferramentas
-- Software em funcionamento mais que documentação abrangente 
-- Colaboração com o cliente mais que negociação de contratos 
-- Responder a mudanças mais que seguir um plano
-
-## Abordagem adaptativa 
-
-Ciclo de vida usando abordagem de desenvolvimento adaptativa
-
-- Escopo aberto 
-- Focada no desenvolvimento e despriorizar documentação 
-- Times pequenos e multidisciplinares 
-
-## Framework Scrum 
-
-Pilares 
--  TransparÊncia
--  Inspeção 
--  Adaptação
+<p align="center">
+  <img alt="Pirâmide de automação" src="https://user-images.githubusercontent.com/85380530/229327141-71ef39ba-0c2e-42f0-a512-e7f8632e0a62.png" width="80%">
+</p>
 
 
-Valores
-- Compromisso 
-- Foco
-- Abertura 
-- Respeito
-- Coragem 
